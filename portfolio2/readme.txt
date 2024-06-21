@@ -1,0 +1,2 @@
+To run this script it is only nessesary to put all files (html and js) in one folder and open html file in web-browser.
+The both parts of assignment are in one html file (scrol to see the particle filter part).

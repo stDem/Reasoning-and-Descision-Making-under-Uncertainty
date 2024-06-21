@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+   
+    <style>
+        #chart-container {
+            width: 80%;
+            height: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        };
+    </style>
+</head>
+<body>
+    <div id="chart-container">
+        <h2>Kalman Filter</h2>
+        <canvas id="myChart" class="charts"></canvas>
+    </div>
+    <div id="chart-container">
+        <h2>Particle Filter</h2>
+        <canvas id="pfChart" class="charts"></canvas>
+        <canvas id="chartCanvas" class="charts" width="800" height="400"></canvas>
+        <canvas id="simulationCanvas" class="charts" width="500" height="600"></canvas>
+    </div>
+    
+    <script src="KalmanFilter.js"></script>
+    <script src="ParticleFilter.js"></script>
+
+    
+</body>
+</html>
