@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack Q-learning</title>
+    <style>
+      .game-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .buttons {
+        margin-top: 20px;
+      }
+      button {
+        margin: 5px;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>BlackJack Q-learning</h1>
+      <div id="game-info"></div>
+      <div class="buttons">
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        <button id="doubleDown">Double Down</button>
+        <button id="split">Split</button>
+      </div>
+      <div id="results"></div>
+      <canvas id="qValueChart" width="400" height="200"></canvas>
+    </div>
+
+    <script src="/blackjack.js">
+      
+    </script>
+  </body>
+</html>
